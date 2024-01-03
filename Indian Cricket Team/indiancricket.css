@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#nav{
+    height: 100px;
+    width: 100%;
+}
+#nav h1{
+    color: #9e9e9e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    /* word-spacing: 0px; */
+    letter-spacing: 7px;
+    font-weight: bolder;
+    margin-top: 70px;
+
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    align-items:center;
+    /* margin-right: 100%; */
+}
+section #virat{
+    height: 400px;
+    width:300px;
+    background: linear-gradient(rgb(163, 141, 141),rgb(26, 24, 24));
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    border: 1px solid;
+}
+section>#virat:hover{
+    transform: scale(1.4);
+    
+    /* transform: rotate3d(0,1,0,360deg); */
+    transition: 3s;
+
+    
+
+}
+section>#virat>.pic{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+    border-radius: 50%;
+    background-image: url(./download.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+} 
+section>#virat>.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+
+
+}
+section>#virat>.text>h2{
+    margin-left: 55px;
+    color: #ff9933;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    /* text-align:justify; */
+
+}
+section>#virat>.text>.role{
+    margin-top: 5px;
+    margin-left: 50px;
+    color: white;
+    
+    
+}
+section>#virat>.text>.desc{
+    color: rgb(0, 255, 191);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+section>#virat>.text>button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #2f00ff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 0px 10px aqua; 
+    /* border: 20px solid black;   */
+}
+section>#virat>.text>button:hover{
+    cursor:pointer;
+    /* cursor: pointer; */
+
+}
+section>#virat>.icon{
+  
+    margin-top: 10px;
+    margin-left:60px;
+    font-size: 40px;
+    word-spacing: 30px;
+   
+    /* letter-spacing: 2px; */
+
+
+    /* background-color: green; */
+}
+section>#virat>.icon>.fa-facebook{
+    color: rgb(28, 28, 121);
+    border: none;
+   
+   
+}
+section>#virat>.icon>.fa-instagram{
+    color: crimson;
+    border: none;
+    
+}
+section #rohit{
+    height: 400px;
+    width:300px;
+    background: linear-gradient(rgb(163, 141, 141),rgb(26, 24, 24));
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    border: 1px solid;
+
+}
+section>#rohit:hover{
+    transform: scale(1.4);
+    
+    /* transform: rotate3d(0,1,0,360deg); */
+    transition: 3s;
+
+   
+
+}
+
+section>#rohit>.pic{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+    border-radius: 50%;
+    background-image: url(./HD-wallpaper-rohit-sharma-ka-cricketer-rohit-sharma-india.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+} 
+
+section>#rohit>.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+
+
+}
+section>#rohit>.text>h2{
+    margin-left: 45px;
+    color: #ff9933;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    /* text-align:justify; */
+
+}
+section>#rohit>.text>.role{
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+    
+    
+}
+section>#rohit>.text>.desc{
+    color: rgb(0, 255, 191);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+section>#rohit>.text>button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #2f00ff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    box-shadow: 0px 0px 10px aqua; 
+    /* border: 20px solid black;   */
+}
+section>#rohit>.text>button:hover{
+    cursor:pointer;
+    /* cursor: pointer; */
+
+}
+section>#rohit>.icon{
+  
+    margin-top: 10px;
+    margin-left:60px;
+    font-size: 40px;
+    word-spacing: 30px;
+   
+    /* letter-spacing: 2px; */
+
+
+    /* background-color: green; */
+}
+section>#rohit>.icon>.fa-facebook{
+    color: rgb(28, 28, 121);
+    border: none;
+   
+   
+}
+section>#rohit>.icon>.fa-instagram{
+    color: crimson;
+    border: none;
+    
+}
+section #bumrah{
+    height: 400px;
+    width:300px;
+    background: linear-gradient(rgb(163, 141, 141),rgb(26, 24, 24));
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    border: 1px solid;
+
+}
+section>#bumrah:hover{
+    transform: scale(1.4);
+    
+    /* transform: rotate3d(0,1,0,360deg); */
+    transition: 3s;
+
+ 
+
+}
+
+section>#bumrah>.pic{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+    border-radius: 50%;
+    background-image: url(./gettyimages-1408242525-594x594.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+} 
+
+section>#bumrah>.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+
+
+}
+section>#bumrah>.text>h2{
+    margin-left: 90px;
+    color: #ff9933;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    /* text-align:justify; */
+
+}
+section>#bumrah>.text>.role{
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+    
+    
+}
+section>#bumrah>.text>.desc{
+    color: rgb(0, 255, 191);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+section>#bumrah>.text>button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #2f00ff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    box-shadow: 0px 0px 10px aqua; 
+    /* border: 20px solid black;   */
+}
+section>#bumrah>.text>button:hover{
+    cursor:pointer;
+    /* cursor: pointer; */
+
+}
+section>#bumrah>.icon{
+  
+    margin-top: 10px;
+    margin-left:60px;
+    font-size: 40px;
+    word-spacing: 30px;
+   
+    /* letter-spacing: 2px; */
+
+
+    /* background-color: green; */
+}
+section>#bumrah>.icon>.fa-facebook{
+    color: rgb(28, 28, 121);
+    border: none;
+   
+   
+}
+section>#bumrah>.icon>.fa-instagram{
+    color: crimson;
+    border: none;
+    
+}
+
+section #jadeja{
+    height: 400px;
+    width:300px;
+    background: linear-gradient(rgb(163, 141, 141),rgb(26, 24, 24));
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    border: 1px solid;
+
+}
+section>#jadeja:hover{
+    transform: scale(1.4);
+    
+    /* transform: rotate3d(0,1,0,360deg); */
+    transition: 3s;
+
+}
+
+section>#jadeja>.pic{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+    border-radius: 50%;
+    background-image: url(./jadeja-hundred-pti.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+} 
+
+section>#jadeja>.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+
+
+}
+section>#jadeja>.text>h2{
+    margin-left: 15px;
+    color: #ff9933;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    /* text-align:justify; */
+
+}
+section>#jadeja>.text>.role{
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+    
+    
+}
+section>#jadeja>.text>.desc{
+    color: rgb(0, 255, 191);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+section>#jadeja>.text>button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #2f00ff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    box-shadow: 0px 0px 10px aqua; 
+    /* border: 20px solid black;   */
+}
+section>#jadeja>.text>button:hover{
+    cursor:pointer;
+    /* cursor: pointer; */
+
+}
+section>#jadeja>.icon{
+  
+    margin-top:10px;
+    margin-left:60px;
+    font-size: 40px;
+    word-spacing: 30px;
+   
+    /* letter-spacing: 2px; */
+
+
+    /* background-color: green; */
+}
+section>#jadeja>.icon>.fa-facebook{
+    color: rgb(28, 28, 121);
+    border: none;
+   
+   
+}
+section>#jadeja>.icon>.fa-instagram{
+    color: crimson;
+    border: none;
+    
+}
+
+section #shami{
+    height: 400px;
+    width:300px;
+    background: linear-gradient(rgb(163, 141, 141),rgb(26, 24, 24));
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    border: 1px solid;
+
+}
+section>#shami:hover{
+    transform: scale(1.4);
+    
+    /* transform: rotate3d(0,1,0,360deg); */
+    transition: 3s;
+
+}
+
+section>#shami>.pic{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+    border-radius: 50%;
+    background-image: url(./Mohammed-Shami-1.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+} 
+
+section>#shami>.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+
+
+}
+section>#shami>.text>h2{
+    margin-left: 13px;
+    color: #ff9933;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    /* text-align:justify; */
+
+}
+section>#shami>.text>.role{
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+    
+    
+}
+section>#shami>.text>.desc{
+    color: rgb(0, 255, 191);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 93%;
+  
+}
+section>#shami>.text>button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #2f00ff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    box-shadow: 0px 0px 10px aqua; 
+    /* border: 20px solid black;   */
+}
+section>#shami>.text>button:hover{
+    cursor:pointer;
+    /* cursor: pointer; */
+
+}
+section>#shami>.icon{
+  
+    margin-top: 10px;
+    margin-left:60px;
+    font-size: 40px;
+    word-spacing: 30px;
+   
+    /* letter-spacing: 2px; */
+
+
+    /* background-color: green; */
+}
+section>#shami>.icon>.fa-facebook{
+    color: rgb(28, 28, 121);
+    border: none;
+   
+   
+}
+section>#shami>.icon>.fa-instagram{
+    color: crimson;
+    border: none;
+    
+}
+
+section #siraj{
+    height: 400px;
+    width:300px;
+    background: linear-gradient(rgb(163, 141, 141),rgb(26, 24, 24));
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    border: 1px solid;
+
+}
+section>#siraj:hover{
+    transform: scale(1.4);
+    
+    /* transform: rotate3d(0,1,0,360deg); */
+    transition: 3s;
+
+}
+
+section>#siraj>.pic{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+    border-radius: 50%;
+    background-image: url(./1617907463_mohammed-siraj.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 30px black;
+} 
+
+section>#siraj>.text{
+    height: 45%;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+
+
+}
+section>#siraj>.text>h2{
+    margin-left: 13px;
+    color: #ff9933;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    /* text-align:justify; */
+
+}
+section>#siraj>.text>.role{
+    margin-top: 5px;
+    margin-left: 55px;
+    color: white;
+    
+    
+}
+section>#siraj>.text>.desc{
+    color: rgb(0, 255, 191);
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 85%;
+  
+}
+section>#siraj>.text>button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #2f00ff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif; 
+    box-shadow: 0px 0px 10px aqua; 
+    /* border: 20px solid black;   */
+}
+section>#siraj>.text>button:hover{
+    cursor:pointer;
+    /* cursor: pointer; */
+
+}
+section>#siraj>.icon{
+  
+    margin-top: 10px;
+    margin-left:60px;
+    font-size: 40px;
+    word-spacing: 30px;
+   
+    /* letter-spacing: 2px; */
+
+
+    /* background-color: green; */
+}
+section>#siraj>.icon>.fa-facebook{
+    color: rgb(28, 28, 121);
+    border: none;
+   
+   
+}
+section>#siraj>.icon>.fa-instagram{
+    color: crimson;
+    border: none;
+    
+}
